@@ -1,0 +1,14 @@
+body header h1 {
+    color:pink; font-family: 'Helvetica Neue';
+}
+
+body main h1 {
+    color:blue; font-family:'Verdana', 'Geneva', Tahoma, sans-serif;
+}
+main div ul li  {
+    display:block;
+    list-style-type: square;
+}
+main div ul li a {
+    text-decoration:none;
+}

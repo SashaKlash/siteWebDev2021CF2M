@@ -1,0 +1,207 @@
+
+nav {
+    box-sizing: border-box;
+    background-color: blue;
+    width:100%;
+    max-height: max-content;
+    display:flow-root;
+    position: relative;
+    box-sizing: border-box;
+    flex-flow: row nowrap;
+    background-color: burlywood;
+}
+.main_menu {
+    box-sizing: border-box;
+    display:flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 75%;
+    position:relative;
+}
+
+.flexbox-main {
+    width: 100%;
+}
+
+.main_menu, .hidden_Navbar {
+    list-style: none;
+    height: 90px;
+    box-sizing: border-box;
+}
+
+.hidden_Navbar {
+    display: none;
+    background-color: burlywood;
+    position:relative;
+	width:auto;
+    height:auto;
+	z-index: 10;
+    top: 1.2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li.flexbox-container:hover ul.hidden_Navbar {
+    overflow:visible;
+    display: block;
+    position: absolute;
+    width:min-content;
+    float: left;
+}
+
+ul.hidden_Navbar {
+    display: none;
+}
+
+.flexbox-item {
+    text-decoration: none;
+    color: black;
+}
+
+ul li.flexbox-main {
+    margin: 15px;
+    align-self: center;
+}
+
+a.flexbox-item:hover {
+    font-style: italic;
+}
+
+.flexbox-container a:hover {
+    position: relative;
+}
+
+a.main_menu {
+    display: inline;
+}
+
+.flexbox-item a {
+    display:block;
+    position: relative;
+    float:right;
+}
+
+.hidden_Navbar .flexbox-hidden {
+    display:block;
+    float: right;
+    box-sizing: border-box;
+    position:relative;
+    height: max-content;
+    right: 15px;
+    line-height: 25px;
+}
+
+.flexbox-hidder {
+    box-sizing: border-box;
+    width: fit-content;
+    position: relative;
+}
+/* Fin de la barre de menu, il me faudra revenir dessus pour une arborescence et des classes plus claires. */
+ /* fin de la barre de navigation */
+
+ footer {
+    box-sizing: border-box;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+ }
+
+ #racine {
+    margin:15px;
+}
+
+#racine a {
+    margin:15px;
+    text-decoration: none;
+}
+
+h1 {
+    color: navy;
+}
+main {
+    width:100%;
+    justify-content:flex-end;
+    margin-left: 15px;
+}
+
+/* fin du style général */
+
+/* Page interview */
+
+
+.listeFilms1 ul li {
+    list-style-type: none;
+    line-height: 2rem;
+    margin-left: -1rem;
+}
+
+main p {
+    font-family: arial;
+    width: 85%;
+}
+
+main p.Q {
+    background-color: rgb(177, 218, 177);
+    text-align: left;
+    border:3px solid rgb(177, 218, 177);
+}
+
+main p.A {
+    text-align: right;
+    border:3px solid rgb(236, 236, 160);
+    background-color: rgb(236, 236, 160);
+}
+
+/* page liste docus */
+
+.listeFilms1 a {
+    text-decoration:none;
+}
+
+.listeFilmsDetail button {
+    border-radius: 50px;
+    height:2rem;
+}
+
+.listeFilms2 ul {
+    list-style: none;
+    line-height: 1.40rem;
+}
+
+main {
+    display: block;
+    position: relative;
+    margin: 50px;
+}
+.docu {
+    display:block;
+    position: relative;
+    justify-content: center;
+    padding: 5px;
+    margin: 5px;
+}
+
+#resume {
+    align-content: flex-start;
+    width: 120vh;
+}
+
+button {
+    cursor: pointer;
+}
+
+table{
+    display:contents;
+    position:absolute;
+    box-sizing: border-box;
+    float: right;
+}
+
+table th{
+    padding: 15px;
+    margin: 20px;
+    border: thin blue solid;
+    border-spacing: 25px;
+}
