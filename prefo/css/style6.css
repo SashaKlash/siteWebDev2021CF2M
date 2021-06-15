@@ -36,7 +36,7 @@ nav {
 	width:auto;
     height:auto;
 	z-index: 10;
-    top: 1.2rem;
+    top: 1rem;
 }
 
 a {
@@ -65,7 +65,7 @@ ul li.flexbox-main {
     align-self: center;
 }
 
-a.flexbox-item:hover {
+a.flexbox-item:hover, a.flexbox-hidder:hover, a.flexbox-hidden:hover {
     font-style: italic;
 }
 
