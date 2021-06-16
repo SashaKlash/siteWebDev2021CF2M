@@ -30,7 +30,7 @@ nav {
 }
 
 .hidden_Navbar {
-    display: none;
+    display:none;
     background-color: burlywood;
     position:relative;
 	width:auto;
